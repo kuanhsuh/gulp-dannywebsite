@@ -1,0 +1,40 @@
+#hd_work {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hd_work.jpg');
+  // background-size: cover;
+  // // background-repeat:no-repeat;
+  // background-position: center;
+  // height: 80vh;
+  // background-attachment: fixed;
+  // color: white;
+  // display: flex;
+  // justify-content:center;
+  // align-items:center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hd_product.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#sc_wk {
+  hr {
+    margin: 3.8rem 0;
+  }
+
+  @media only screen and (max-width: 576px) {
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+#sc_clt {
+  background-color: $primary-grey;
+
+  .hellodestroyer {width: 50%;}
+  .lttrain {width: 35%;}
+}

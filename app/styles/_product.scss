@@ -1,0 +1,47 @@
+/* === PRODUCT - HEADER === */
+
+#hd_pd {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hd_product.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+#sc-pd-table {
+  th {
+    text-align: center;
+  }
+
+  thead th {
+    font-weight: 400;
+  }
+  tbody th {
+    background-color: $primary-green;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+#sc-pd-qa {
+  background-color: $secondary-grey;
+
+  .card {
+    background-color: $primary-green;
+    margin-bottom: 1rem;
+  }
+
+  .card-block {
+    background-color: white;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  a {
+    color: white;
+  }
+}

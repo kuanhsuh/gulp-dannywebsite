@@ -1,0 +1,34 @@
+#ct-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hd_contact.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#ct-info {
+  .display-4 {
+    font-size: 1.5rem;
+  }
+}
+#ct-form {
+  background-color: $secondary-grey;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
